@@ -1,0 +1,449 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.banner {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url(2024-12-12-21-12-53.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.navbar {
+    align-items: center;
+    margin-top: 0px;
+    padding-left: 0px;
+    text-decoration: none;
+
+}
+
+.navbar {
+    margin-top: -48%;
+    background-color: rgba(34, 28, 25, 0.891);
+    height: 10%;
+    width: 100%;
+    position: fixed;
+}
+
+
+
+.logo {
+    margin-top: 0.8%;
+    margin-left: 5%;
+    padding: 0%;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    color: aliceblue;
+}
+
+.logo span {
+    color: rgb(106, 50, 37);
+
+}
+
+.navbar ul {
+    color: white;
+    text-align: right;
+    margin-right: 32%;
+    margin-top: -4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar li {
+    color: white;
+    padding: 10px 10px;
+    margin-top: 1%;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(135, 63, 63);
+    border-radius: 18px;
+    color: black;
+    padding: 10px 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.right {
+    float: right;
+    margin-right: 4%;
+    color: white;
+    margin-top: -2.2%;
+    cursor: pointer;
+}
+
+.right i {
+    padding-right: 20px;
+}
+
+.right i:hover {
+    color: rgb(135, 63, 63);
+}
+.body{
+    margin-left: 10%;
+}
+
+.body h2.anim {
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-size: 100px;
+    
+   margin-top: -39%;
+    animation-delay: 1.2s;
+ 
+ 
+}
+.body h2.anim {
+    opacity: 0;
+    transform: translateX(2px);
+    animation:fadeOut 2s linear  forwards;
+   
+
+}
+@keyframes fadeOut {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+.body span {
+    color: rgb(51, 18, 11);
+}
+
+.body-1 {
+    color: rgb(255, 255, 255);
+    padding-top: -3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+ 
+    margin-top: -35%;
+    display: inline-block;
+}
+
+.para {
+    color: white;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    padding-top: 2%;
+    font-weight: 300;
+}
+
+.body button {
+    cursor: pointer;
+    color: black;
+    background-color: rgb(168, 105, 105);
+    border: 2px solid rgb(47, 12, 12);
+    padding: 12px 25px;
+    border-radius: 10px;
+ 
+    margin-top: 4%;
+
+}
+
+.body button:hover {
+    color: white;
+    background-color: rgb(51, 18, 11);
+    border-color: white;
+}
+
+.about-section {
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    margin-top: -7.2%;
+
+}
+
+.about-section h1 {
+    color: rgb(255, 255, 255);
+    margin-top: 16.2%;
+    padding-top: 5%;
+    margin-left: 65%;
+    font-family: "Ubuntu", serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.about-section p {
+    color: white;
+    font-family: "Ubuntu", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 5%;
+    padding-left: 45%;
+    margin-right: 4%;
+
+}
+
+.about-section img {
+    height: 70vh;
+    width: 35%;
+    margin-top: -24.5%;
+    margin-left: 3%;
+    flex-direction: column;
+
+}
+
+.menu-section {
+    height: 150vh;
+    width: 100%;
+    background-color: rgb(42, 41, 41);
+    color: white;
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.menu-section h1 {
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(237, 237, 233);
+    text-align: center;
+    padding-top: 2%;
+    text-decoration: none;
+
+
+
+}
+
+.menu-section .menu-list img {
+
+    width: 70%;
+    height: 45vh;
+    padding-right: 60px;
+    margin-left: 15px;
+    list-style: none;
+    cursor: zoom-in;
+    transition: 0.3s ease;
+
+}
+
+
+.menu-section .menu-list .menu-item {
+    float: left;
+    margin-left: 40px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-top: 5%;
+
+}
+
+.menu-section .menu-list .menu-item:hover img {
+    transform: scale(1.1);
+
+}
+
+.gallery-section {
+    height: 120vh;
+    width: 100%
+}
+
+.gallery-section h1 {
+    color: rgb(1, 0, 0);
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.gallery-section .gallery-list .gallery-item {
+    margin-left: 6%;
+    list-style: none;
+
+}
+
+.gallery-section .gallery-list .gallery-item img {
+    float: left;
+    height: 40vh;
+    width: 28%;
+    margin-top: 5%;
+    margin-right: 3%;
+    list-style: none;
+    border-left: 10px solid grey;
+    border-top: 10px solid grey;
+    border-right: 10px solid rgb(0, 0, 0);
+    border-bottom: 10px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: zoom-in;
+    transition: 0.3s ease;
+
+}
+
+.gallery-section .gallery-list .gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.contact-section {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.544), rgba(0, 0, 0, 0.544)), url(2024-12-24-20-57-49.png);
+}
+
+.contact-section h1 {
+    color: white;
+    text-align: center;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    padding-top: 3%;
+    font-size: 45px;
+}
+
+.contact-section .contact-list {
+    margin-top: 8%;
+}
+
+.contact-section .contact-list .contact-item {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-between;
+    font-size: 22px;
+    margin-left: 8%;
+
+    margin-top: 2%;
+    list-style: none;
+    font-weight: 200;
+
+
+}
+
+.contact-section .contact-form input {
+    padding: 15px 20px;
+    padding-right: 20%;
+    display: block;
+    margin-left: 55%;
+    margin-top: -16%;
+    margin-bottom: 6%;
+    border-radius: 10px;
+}
+
+.contact-section .contact-form textarea {
+    padding: 15px 20px;
+    padding-right: 20%;
+    display: block;
+    margin-left: 55%;
+    margin-top: 9%;
+    border-radius: 10px;
+}
+
+.contact-section .contact-form button {
+    margin-left: 55%;
+    padding: 15px 35px;
+    margin-top: 4%;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: rgb(175, 150, 150);
+    border-color: black;
+    font-family: sans-serif;
+
+}
+
+.contact-section .contact-form button:hover {
+    background-color: rgb(51, 18, 11);
+    color: white;
+
+}
+
+.footer-section {
+    height: 9vh;
+    width: 100%;
+    background-color: rgb(48, 44, 44);
+    margin-top: -2%;
+}
+
+.footer-section p {
+    color: white;
+    margin-left: 5%;
+    font-size: 18px;
+    padding-top: 1.2%;
+    display: block;
+
+}
+
+.footer-section .footer-content .social-link-list ul {
+
+    list-style: none;
+
+
+    font-size: 27px;
+    margin-top: -3%;
+    margin-left: 45%;
+
+}
+
+
+.footer-section .footer-content .social-link-list ul li {
+    color: white;
+    display: inline-block;
+
+    size: 30px;
+    padding-left: 14px;
+    margin-top: 2%;
+    padding-bottom: 1%;
+
+}
+
+.footer-section .footer-content .social-link-list ul li a {
+    color: white;
+}
+
+.footer-section .footer-content .social-link-list ul li a:hover {
+    color: black;
+}
+
+
+
+.footer-section .footer-content p {
+    color: white;
+    margin-right: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.policy-text p a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.policy-text p a:hover {
+    color: black;
+}
+
+.policy-text p {
+    display: block;
+    margin-top: -4%;
+    margin-left: 78%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+@media screen and (max-width:900px) {}
